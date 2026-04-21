@@ -18,19 +18,19 @@ A research-grade implementation of the OFI framework from **Cont, Kukanov & Stoi
 
 ### Three OFI Variants (Cont et al. 2014)
 
-**Best-Level OFI** — the change in net order pressure at the best bid/ask:
+**Best-Level OFI** - the change in net order pressure at the best bid/ask:
 ```
 OFI_t = ΔBid_t - ΔAsk_t
 ```
 Where ΔBid_t = +q_b if price improved, q_b - q_b_prev if unchanged, -q_b if deteriorated.
 
-**Multi-Level OFI** — extends to all 10 LOB levels with depth normalization:
+**Multi-Level OFI** - extends to all 10 LOB levels with depth normalization:
 ```
 OFI_t^m = (ΔBid_t^m - ΔAsk_t^m) / avg_depth^m
 ```
 Normalization makes levels comparable across liquidity regimes.
 
-**Integrated OFI** — PCA compression of the multi-level vector:
+**Integrated OFI** - PCA compression of the multi-level vector:
 ```
 OFI_integrated = w^T × [OFI^1, OFI^2, ..., OFI^M]
 ```
