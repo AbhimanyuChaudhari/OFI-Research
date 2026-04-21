@@ -57,7 +57,7 @@ Naive OLS on tick data produces inflated t-statistics due to autocorrelation. Ne
 
 | Original | This Version |
 |---|---|
-| Python `for` loop over rows | Vectorized NumPy — 100x faster |
+| Python `for` loop over rows | Vectorized NumPy - 100x faster |
 | No price impact regression | OLS + Newey-West t-stats |
 | No statistical significance | p-values, R², confidence intervals |
 | Tick-level only | Multi-frequency: 1s / 5s / 30s |
