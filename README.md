@@ -131,5 +131,5 @@ Run notebooks in order: **01 → 02 → 03 → 04**. Notebook 02 saves `data/ofi
 
 ## Contact
 
-**Abhimanyu Chaudhari** — MS Financial Technologies, NJIT
+**Abhimanyu Chaudhari** - MS Financial Technologies, NJIT
 [LinkedIn](http://www.linkedin.com/in/abhimanyu-chaudhari16) · [GitHub](https://github.com/AbhimanyuChaudhari) · abhimanyuchaudhari16@gmail.com
