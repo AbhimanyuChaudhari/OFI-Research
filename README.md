@@ -1,6 +1,6 @@
 # Order Flow Imbalance (OFI) Research
 
-A research-grade implementation of the OFI framework from **Cont, Kukanov & Stoikov (2014)** — applied to real LOBSTER-format limit order book data for AAPL.
+A research-grade implementation of the OFI framework from **Cont, Kukanov & Stoikov (2014)** - applied to real LOBSTER-format limit order book data for AAPL.
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square)
 ![Data](https://img.shields.io/badge/Data-LOBSTER%20LOB-orange?style=flat-square)
